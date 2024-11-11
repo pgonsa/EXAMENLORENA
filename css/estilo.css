@@ -1,0 +1,60 @@
+/*Paula González Sánchez*/
+@import url('https://fonts.googleapis.com/css2?family=Monserrat:wght@100&display=swap');
+/*HEADER*/
+header{
+    background-color: #333;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    position: sticky;
+}
+header nav{
+    justify-content: center;
+}
+header nav ul{
+    text-align: center;
+    justify-content: space-between;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 1em;
+    
+}
+a{
+    text-decoration: none;
+    color: #f4f4f9;
+}
+
+a:hover{
+    color:  #a9065d;
+}
+/*BODY*/
+body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #0b0a0a;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+}
+/*FOOTER*/
+footer{
+    background-color: #333;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 18%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    position: sticky;
+}
+footer p{
+    color: #f4f4f9;
+}
